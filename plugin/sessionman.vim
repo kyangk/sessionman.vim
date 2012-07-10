@@ -111,7 +111,7 @@ function! s:OpenSession(name)
 			silent! cscope kill -1
 		endif
 		try
-			set eventignore=all
+			"set eventignore=all
 			execute 'silent! 1,' . bufnr('$') . 'bwipeout!'
 			let n = bufnr('%')
 			execute 'silent! so ' . s:sessions_path . '/' . a:name

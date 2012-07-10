@@ -1,3 +1,11 @@
+Modifications
+    Turned off eventignore settings so other plugins can handle SessionOpen properly.
+
+
+Based on https://github.com/vim-scripts/sessionman.vim
+
+Original README:
+
 This is a mirror of http://www.vim.org/scripts/script.php?script_id=2010
 
 Vim provides a ':mksession' command to save the current editing session.  This plug-in helps to work with Vim sessions by keeping them in the dedicated location and by providing commands to list all sessions, open session, open last session, close session, save session and show last session.  From a list of sessions you can open session, delete session, edit session and edit extra session script.  Please note that session name can contain spaces and does not have to have a .vim extension.
